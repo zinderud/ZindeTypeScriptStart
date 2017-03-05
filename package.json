@@ -1,0 +1,26 @@
+{
+  "name": "zinderud typescript start ",
+  "version": "1.0.0",
+  "description": "A Typescript 'Hello World' .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Murat Onur Karadeniz",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "concurrent-transform": "^1.0.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-awspublish": "^3.3.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1",
+    "tsify": "^3.0.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    
+    "typescript": "^2.2.1"
+  }
+}
