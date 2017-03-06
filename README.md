@@ -13,7 +13,15 @@ A Typescript 'Hello World' example project
 - [TSD](http://definitelytyped.org/) (to manage Typings)
   - `npm i -g tsd@next `
 
- 
+## Usage
+
+### Setup
+
+```bash
+git clone git@github.com:selbyk/three.ts.git
+cd ./three.ts
+npm install
+```
 
 ### Start Auto-Refresh Build Process & Server
 
