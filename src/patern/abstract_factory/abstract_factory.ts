@@ -1,3 +1,7 @@
+
+//## Abstract Factory Pattern ##
+
+//Creates an instance of several families of classes..
 export module AbstractFactoryPattern {
     export interface AbstractProductA {
         methodA(): string;
