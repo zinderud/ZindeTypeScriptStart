@@ -14,9 +14,12 @@ A Typescript 'Hello World' example project
   - `npm i -g tsd@next `
 
 ## Usage
+gulp
+### Setup
 
- gulp
+```bash
  
+npm install
 ```
 
 ### Start Auto-Refresh Build Process & Server
