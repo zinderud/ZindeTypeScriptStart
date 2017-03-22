@@ -15,12 +15,8 @@ A Typescript 'Hello World' example project
 
 ## Usage
 
-### Setup
-
-```bash
-git clone git@github.com:selbyk/three.ts.git
-cd ./three.ts
-npm install
+ gulp
+ 
 ```
 
 ### Start Auto-Refresh Build Process & Server
