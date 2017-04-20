@@ -1,3 +1,7 @@
+/*
+Köprü kalıp soyutlamayı (abstraction) uygulamadan (implementation) ayırarak ikisinin birbirinden bağımsız çalışmasını sağlar. Bunu yaparken katmanlı yapı (encapsulation), toplama (aggregation) ve de kalıtımı kullanarak programın görevlerini birbirlerinden farklı sınıflara aktarırlar.*/
+
+
 export interface Implementor {
 
     gel(s: any): void;
