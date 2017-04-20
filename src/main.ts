@@ -1,6 +1,6 @@
 import {Calculator} from './patern/sade/calculator';
 //import {Observable,Observer} from "rxjs";
-import {AbstractFactoryPattern , bridgeshow}   from  './patern/index';
+import {AbstractFactoryPattern , bridgeshow,Goster}   from  './patern/index';
 //import {ObservableChose1,ObservableChose2, ObserClas } from './reactive/reactiveStart'
 
 window.onload = function () {
@@ -9,7 +9,8 @@ window.onload = function () {
     calc.init('X','Y','Output');*/
  
   bridgeshow();
+Goster();
 
 };
 
- bridgeshow();
+ 
