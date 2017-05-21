@@ -6,9 +6,19 @@
   "scripts": {
     "postinstall": "typings install"
   },
+    "keywords": [
+        " typescript patern",
+        "Lesson",
+        "reactive",
+        "typescript"
+    ],
   "author": "Murat Onur Karadeniz",
   "license": "MIT",
+   "dependencies": {
+        "events": "^1.1.1"
+    },
   "devDependencies": {
+    "@types/node": "^7.0.12",
     "browserify": "^14.1.0",
     "concurrent-transform": "^1.0.0",
     "del": "^2.2.2",
