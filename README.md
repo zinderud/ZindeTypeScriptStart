@@ -7,14 +7,26 @@ A Typescript 'Hello World' example project
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/en/download/package-manager/)
-- [Gulp](http://gulpjs.com/)
-  - `npm install --global gulp-cli`
-- [TSD](http://definitelytyped.org/) (to manage Typings)
-  - `npm i -g tsd@next `
+
+  - `npm`
 
 ## Usage
-gulp
+ TypeScript is a typed superset of JavaScript that compiles down to plain JavaScript, which also supports modern ES2015+ features. 
+```bash
+<!-- index.html -->
+<html>
+<body>
+  <script src="./index.ts"></script>
+</body>
+</html>
+
+// index.ts
+import message from './message'
+console.log(message)
+// message.ts
+export default 'Hello, world
+```
+'
 ### Setup
 
 ```bash
@@ -25,14 +37,7 @@ npm install
 ### Start Auto-Refresh Build Process & Server
 
 ```bash
-gulp
+npm run dev
 ```
 
-Local server is accessible at [http://localhost:8000](http://localhost:8000)
-
-### Publish to AWS S3
-
-```bash
-gulp publish
-```
- 
+Local server is accessible at [http://localhost:1234] 
