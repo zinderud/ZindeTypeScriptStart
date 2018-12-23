@@ -1,5 +1,3 @@
- 
-import { Goster}   from  './patern/iterator/IteratorPattern ';
-Goster();
+import { DecoratorDemo } from "./patern/decarator/buy-car";
 
-console.log("deba")
+let decoratorDemo=new DecoratorDemo().dem()
